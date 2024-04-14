@@ -1,8 +1,8 @@
 # Naztech Software
 
+[![Windows](https://img.shields.io/badge/Windows-green.svg)](https://opensource.org/licenses/MIT)
+[![Linux](https://img.shields.io/badge/Linux-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![License: MIT](https://img.shields.io/badge/Windows-License-green.svg)](https://opensource.org/licenses/MIT)
-[![License: MIT](https://img.shields.io/badge/Linux-License-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 Welcome to Naztech Software, a curated collection of tools and scripts designed to streamline your digital workflow. This repository offers a wide range of utilities for document sorting, file organization, duplicate image removal, and more. The goal is to provide efficient solutions that enhance productivity and simplify day-to-day tasks.
