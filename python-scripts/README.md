@@ -30,7 +30,7 @@ Before running the scripts, ensure that you have the following prerequisites ins
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/nazpins/naztech-software/edit/main/Python-Scripts.git
+   git clone https://github.com/nazpins/naztech-software/edit/main/python-scripts.git
    ```
 2. You're ready to use the scripts! Double-click the `.bat` file and follow the prompts to provide the necessary inputs.
 
@@ -82,7 +82,7 @@ Feel free to modify and customize the scripts to suit your specific needs. You c
 
 ## Contributing
 
-Contributions to the Python-Scripts collection are welcome! If you have any ideas for new scripts or improvements to existing ones, please submit a pull request or open an issue on the [GitHub repository](https://github.com/nazpins/naztech-software/edit/main/Python-Scripts).
+Contributions to the Python-Scripts collection are welcome! If you have any ideas for new scripts or improvements to existing ones, please submit a pull request or open an issue on the [GitHub repository](https://github.com/nazpins/naztech-software/edit/main/python-scripts).
 
 ## License
 
