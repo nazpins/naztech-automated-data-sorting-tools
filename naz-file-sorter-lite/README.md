@@ -1,6 +1,6 @@
 # NAZTECH File Sorter Lite
 
-NAZTECH File Sorter Lite is a Python script that helps you organize files in a directory by sorting them into folders based on their file extensions. It provides a simple and efficient way to keep your files organized and easily accessible.
+NAZTECH File Sorter Lite is a program that helps you organize files in a directory by sorting them into folders based on their file extensions. It provides a simple and efficient way to keep your files organized and easily accessible.
 
 ## Features
 
