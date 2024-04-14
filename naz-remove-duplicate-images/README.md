@@ -4,10 +4,10 @@ Naztech Remove Duplicate Images is a utility to identify and remove duplicate im
 
 ## Features
 
-- Identifies duplicate images using hashing algorithms
-- Removes duplicate images from a specified directory
-- Provides batch and PowerShell scripts for easy execution
-- Logs the duplicates found and removed in a text file
+- Identifies duplicate images using hashing algorithms.
+- Removes duplicate images from a specified directory.
+- Provides batch, PowerShell, and Unix shell scripts for easy execution.
+- Logs the duplicates found and removed in a text file.
 
 ## Installation
 
@@ -32,10 +32,13 @@ Naztech Remove Duplicate Images is a utility to identify and remove duplicate im
 
 ## Usage
 
-### Batch and PowerShell Scripts
+### Scripts
 
-1. Download the `remove_duplicates.bat` (for Windows Batch) or `remove_duplicates.ps1` (for PowerShell) script.
-2. Double-click on the script file to run it.
+1. Download the appropriate script for your operating system:
+   - `remove_duplicates.bat` for Windows Batch
+   - `remove_duplicates.ps1` for PowerShell
+   - `start.sh` for Unix-like systems
+2. Depending on your OS, double-click the script file or run it in a terminal.
 3. Enter the path to the folder containing the images when prompted.
 4. The script will handle the rest, logging the duplicates found and removed in `duplicate_log.txt`.
 
@@ -63,3 +66,4 @@ This project is licensed under the [MIT License](LICENSE).
 Duplicate Photo Hash Deleter is developed by nazpins (https://github.com/nazpins).
 
 Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/duplicate-photo-hash-deleter).
+```
