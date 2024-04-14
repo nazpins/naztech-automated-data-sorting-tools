@@ -45,4 +45,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Naztech File Sorter Lite is developed by nazpins (https://github.com/nazpins).
 
-Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/naz-file-sorter-lite).
+Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/naztech-software/tree/main/naz-file-sorter-lite).
