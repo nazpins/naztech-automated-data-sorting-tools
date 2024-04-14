@@ -11,8 +11,8 @@ Welcome to Naztech ADST, a curated collection of tools and scripts designed to s
 
 - [Projects](#projects)
   - [File-Sorter & File-Sorter-Lite](#naz-file-sorter--naz-file-sorter-lite)
-  - [Doc-Sorter](#naz-doc-sorter)
   - [Remove-Duplicate-Images](#naz-remove-duplicate-images)
+  - [Doc-Sorter](#naz-doc-sorter)
   - [Python Scripts](#python-scripts)
   - [Windows Scripts](#windows-scripts)
 - [Getting Started](#getting-started)
@@ -27,15 +27,15 @@ Welcome to Naztech ADST, a curated collection of tools and scripts designed to s
 
 ### Naz-File-Sorter & File-Sorter-Lite
 
-Naz-File-Sorter and its lightweight counterpart, Naz-File-Sorter-Lite, are your go-to solutions for efficient file organization. These Python-based utilities categorize your files into predefined directories based on their file types. With options to include datetime stamps and support for a wide range of file formats, these tools bring order to your digital chaos.
-
-### Naz-Doc-Sorter
-
-Naz-Doc-Sorter is a powerful tool that simplifies document organization (ebooks, pdf, md, txt, etc..) By leveraging the Google Books API, it renames your documents based on accurate metadata and intelligently sorts them into author-specific folders. Say goodbye to cluttered document and ebook collections and hello to a well-structured library.
+Naz-FS and its lightweight counterpart, Naz-FSLite, are your go-to solutions for efficient file organization. These Python-based utilities categorize your files into predefined directories based on their file types. With options to include datetime stamps and support for a wide range of file formats, these tools bring order to your digital chaos.
 
 ### Naz-Remove-Duplicate-Images
 
-Naz-Remove-Duplicate-Images is a robust utility that identifies and eliminates duplicate images from your directories. Powered by advanced hashing algorithms, it effectively detects and removes redundant images, freeing up valuable storage space. With batch, PowerShell, and Unix shell scripts provided, removing duplicates has never been easier.
+Naz-RDI is a robust utility that identifies and eliminates duplicate images from specified directories. Powered by advanced hashing algorithms, it effectively detects and removes redundant images, freeing up valuable storage space. With batch, PowerShell, and Unix shell scripts provided, removing duplicate photos has never been easier. It even works with mismatched filenames, filetypes, and missing / corrupt metadata.
+
+### Naz-Doc-Sorter
+
+Naz-DS is a powerful tool that simplifies document organization (ebooks, pdf, md, txt, etc..) By leveraging the Google Books API, it renames your documents based on accurate metadata and intelligently sorts them into author-specific folders. Say goodbye to cluttered document and ebook collections and hello to a well-structured library.
 
 ### Python Scripts
 
