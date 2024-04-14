@@ -24,11 +24,11 @@ Welcome to Naztech Software, a curated collection of tools and scripts designed 
 
 ### Python Scripts
 
-The `Python-Scripts` directory contains a diverse set of scripts tailored for automation, data processing, and machine learning tasks. These scripts leverage Python's versatility to provide powerful solutions for common challenges. From creating Conda environments to managing user accounts and monitoring system resources, these scripts cater to a wide range of needs.
+The `python-scripts` directory contains a diverse set of scripts tailored for automation, data processing, and machine learning tasks. These scripts leverage Python's versatility to provide powerful solutions for common challenges. From creating Conda environments to managing user accounts and monitoring system resources, these scripts cater to a wide range of needs.
 
 ### Windows Scripts
 
-The `Windows-Scripts` directory is a treasure trove of scripts specifically designed for Windows power users. These scripts focus on automation, data sorting, security, and workflow improvements. Whether you need to block .exe files using Windows Firewall, list installed applications with winget, or find duplicate files, these scripts have you covered.
+The `windows-scripts` directory is a treasure trove of scripts specifically designed for Windows power users. These scripts focus on automation, data sorting, security, and workflow improvements. Whether you need to block .exe files using Windows Firewall, list installed applications with winget, or find duplicate files, these scripts have you covered.
 
 ### Naz Doc Sorter
 
