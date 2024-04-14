@@ -8,6 +8,10 @@ from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, d
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
+# Suppress TensorFlow warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+
 # Initialize classifiers
 text_classifier = pipeline('zero-shot-classification', model='facebook/bart-large-mnli')
 image_model = ResNet50(weights='imagenet')
@@ -37,17 +41,6 @@ def process_file(file_path, directory):
     filename = os.path.basename(file_path)
     _, extension = os.path.splitext(filename)
     extension = extension.lower()
-    extension_folders = {
-        '.jpg': 'Images', '.jpeg': 'Images', '.png': 'Images', '.gif': 'Images',
-        '.bmp': 'Images', '.txt': 'Documents', '.doc': 'Documents', '.docx': 'Documents',
-        '.pdf': 'Documents', '.xlsx': 'Documents', '.csv': 'Documents', '.md': 'Documents',
-        '.epub': 'Documents', '.mobi': 'Documents', '.mp3': 'Audio', '.wav': 'Audio',
-        '.flac': 'Audio', '.aac': 'Audio', '.mp4': 'Videos', '.avi': 'Videos',
-        '.mkv': 'Videos', '.mov': 'Videos', '.exe': 'Applications', '.msi': 'Applications',
-        '.zip': 'Archives', '.rar': 'Archives', '.7z': 'Archives', '.tar': 'Archives',
-        '.gz': 'Archives', '.ipynb': 'Notebooks', '.py': 'Code', '.r': 'Code',
-        '.json': 'Data', '.yaml': 'Configurations'
-    }
 
     if extension in ['.txt', '.doc', '.docx', '.pdf', '.md']:
         try:
@@ -74,17 +67,18 @@ def process_file(file_path, directory):
 def organize_files_by_type(directory):
     with concurrent.futures.ThreadPoolExecutor() as executor:
         futures = []
-        for filename in os.listdir(directory):
-            file_path = os.path.join(directory, filename)
-            if os.path.isfile(file_path):
-                futures.append(executor.submit(process_file, file_path, directory))
-            else:
-                logging.info(f"{filename} is not a file. Skipping.")
+        for root, dirs, files in os.walk(directory):
+            for filename in files:
+                file_path = os.path.join(root, filename)
+                if os.path.isfile(file_path):
+                    futures.append(executor.submit(process_file, file_path, directory))
+                else:
+                    logging.info(f"{filename} is not a file. Skipping.")
 
         concurrent.futures.wait(futures)
 
 if __name__ == '__main__':
     print("\033c", end="")  # Clear the screen
-    print("\033[1;34mSORT WITH PRECISION - Powered by AI\033[0m")
+    print("\033[1;34mNAZ-PRECISION-CLASSIFICATION-SORTER - Powered by AI\033[0m")
     directory = input("\033[1;32mEnter the directory path: \033[0m")
     organize_files_by_type(directory)
