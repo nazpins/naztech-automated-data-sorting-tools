@@ -1,67 +1,151 @@
 # Precision-Classification-Sorter
 
-Naz-PCS is an advanced file sorting tool powered by AI, designed to categorize large volumes of data efficiently. It utilizes machine learning models to classify text and images, sorting files into intuitive categories based on content.
+Precision-Classification-Sorter is an advanced file sorting tool powered by AI. It leverages TensorFlow to classify and sort large volumes of data efficiently. The tool supports both CPU and GPU environments.
 
-## Features
+## Prerequisites
 
-- **Content-Based Classification**: Leverages models for accurate classification of text and images.
-- **Parallel Processing**: Utilizes concurrent processing to handle large datasets efficiently.
-- **Extensive File Support**: Capable of sorting a wide range of file types into detailed categories.
+Before you begin, ensure your system meets these requirements:
+- Windows 10 or higher
+- An NVIDIA GPU (if you want Tensorflow with GPU support)
+- [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (recommended for managing environments)
 
 ## Installation
 
-Clone the repository or download the files directly. To set up and run the script, follow these steps:
+### Installing Miniconda
 
-### Windows
+1. Download the Miniconda installer for Windows from [Miniconda's site](https://docs.conda.io/en/latest/miniconda.html).
+2. Run the installer and follow the on-screen instructions. Make sure to select "Add Miniconda to my PATH environment variable" for an easier command-line experience.
+3. Restart your command prompt to ensure Miniconda is recognized.
 
-1. Open your command prompt.
-2. Navigate to the directory containing `start.bat`.
-3. Run the script:
-   ```
-   ./start.bat
-   ```
+### Setting up TensorFlow Environment
 
-### Unix-like Systems
+#### TensorFlow CPU Environment
 
-1. Open your terminal.
-2. Navigate to the directory containing `start.sh`.
-3. Give executable permissions to the script (if necessary):
+1. **Create and activate the Conda environment for CPU:**
+   ```bash
+   conda create --name tf_cpu python=3.9
+   conda activate tf_cpu
    ```
-   chmod +x start.sh
-   ```
-4. Run the script:
-   ```
-   ./start.sh
+2. **Install TensorFlow for CPU:**
+   ```bash
+   pip install tensorflow
    ```
 
-## Usage
+#### TensorFlow GPU Environment
 
-Once the script is running, follow the on-screen prompts to enter the directory path you wish to organize. The script will classify and sort the files into categories, logging the process and any errors encountered.
+1. **Create and activate the Conda environment for GPU:**
+   ```bash
+   conda create --name tf_gpu python=3.9
+   conda activate tf_gpu
+   ```
 
-## Contributing
+2. **Install CUDA and cuDNN:**
+   ```bash
+   conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+   ```
 
-Contributions are welcome! Please feel free to submit pull requests or open issues to suggest improvements or add new features.
+3. **Install TensorFlow for GPU:**
+   ```bash
+   pip install "tensorflow<2.11"
+   ```
+
+4. **Verify the GPU setup:**
+   ```bash
+   python -c "import tensorflow as tf; print(tf.config.list_physical_devices('GPU'))"
+   ```
+
+## Running the Tool
+
+Navigate to the project directory in your command prompt and run the following:
+
+For CPU:
+```bash
+conda activate tf_cpu
+python sort-with-precision.py
+```
+
+For GPU:
+```bash
+conda activate tf_gpu
+python sort-with-precision.py
+```
+
+## HOW TO MAKE & CUSTOMIZE START SCRIPTS
+
+### Windows Start Scripts
+
+#### For TensorFlow CPU (`start_cpu.bat`):
+```batch
+@echo off
+echo Checking and setting up the environment for CPU...
+CALL conda activate tf_cpu
+
+echo Launching Sort with Precision on CPU...
+python sort-with-precision.py
+pause
+```
+
+#### For TensorFlow GPU (`start_gpu.bat`):
+```batch
+@echo off
+echo Checking and setting up the environment for GPU...
+CALL conda activate tf_gpu
+
+echo Launching Sort with Precision on GPU...
+python sort-with-precision.py
+pause
+```
+
+### Unix-like Systems Start Scripts
+
+#### For TensorFlow CPU (`start_cpu.sh`):
+```bash
+#!/bin/bash
+
+echo "Checking and setting up the environment for CPU..."
+source ~/miniconda3/bin/activate tf_cpu
+
+echo "Launching Sort with Precision on CPU..."
+python sort-with-precision.py
+```
+
+#### For TensorFlow GPU (`start_gpu.sh`):
+```bash
+#!/bin/bash
+
+echo "Checking and setting up the environment for GPU..."
+source ~/miniconda3/bin/activate tf_gpu
+
+echo "Launching Sort with Precision on GPU..."
+python sort-with-precision.py
+```
+
+### How to Use These Scripts
+
+1. **Windows Users:**
+   - Place the appropriate `.bat` file in the same directory as your Python script.
+   - Double-click `start_cpu.bat` for CPU or `start_gpu.bat` for GPU to run the application.
+
+2. **Unix-like System Users:**
+   - Place the appropriate `.sh` file in the same directory as your Python script.
+   - Make the script executable by running `chmod +x start_cpu.sh` or `chmod +x start_gpu.sh`.
+   - Execute the script via the terminal by typing `./start_cpu.sh` for CPU or `./start_gpu.sh` for GPU.
+
+### Notes
+- Ensure that Miniconda paths are correct in the scripts. Modify the path to `activate` if your Miniconda installation differs from the default.
+- Remember to activate the right environment before running the scripts to ensure that all dependencies are correctly loaded.
+- It's advisable to test these scripts after setting them up to make sure everything works as expected.
+
+These scripts facilitate running your Python application with the correct TensorFlow backend without manually activating environments and setting up dependencies each time. They should help streamline your workflow whether you are using CPU or GPU resources.
+
+## Customization
+
+You can customize the sorting categories and TensorFlow models used by modifying the `sort-with-precision.py` script.
+
+## Troubleshooting
+
+If you encounter issues with TensorFlow not recognizing your GPU, ensure that your CUDA and cuDNN installations are compatible with the TensorFlow version installed. Additionally, check that your GPU drivers are up to date.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgments
-
-- TensorFlow
-- Hugging Face Transformers
-- Contributors who have provided feedback and suggestions.
-
-## Warning
-
-Please note that the script modifies the structure of the directory you specify by organizing files into folders. It is highly recommended to back up your data before running the script to avoid any unintended loss or modification of files.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Author
-
-Naztech Precision-Classification-Sorter is developed by nazpins (https://github.com/nazpins).
-
-Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/naztech-software/tree/main/naz-precision-classification-sorter).
+This project is licensed under the MIT License - see the LICENSE file for details.
