@@ -1,5 +1,0 @@
-Total files checked: 3
-Total duplicates found: 1
-Duplicate found: example1 - image1.png and image2.png
-Removed: image1.png
-
