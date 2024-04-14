@@ -1,7 +1,7 @@
 # Naztech Doc Sorter
 
-## Overview
-This script organizes your documents by renaming them according to metadata fetched from the Google Books API and sorting them into folders named after the authors.
+## Features
+This program organizes your documents by renaming them according to metadata fetched from the Google Books API and sorting them into folders named after the authors.
 
 ## Setup
 1. Ensure Python is installed on your system.
@@ -19,4 +19,12 @@ This script organizes your documents by renaming them according to metadata fetc
 - requests
 
 ## Warning
-Please back up your data before running this script as it will reorganize your files and directories.
+Please note that the script modifies the structure of the directory you specify by organizing files into folders. It is highly recommended to back up your data before running the script to avoid any unintended loss or modification of files.
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Author
+NAZTECH File Sorter Lite is developed by nazpins (https://github.com/nazpins).
+
+Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/naz-doc-sorter).
