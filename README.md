@@ -73,7 +73,7 @@ Each project within Naztech Software comes with its own detailed usage instructi
 
 ## Contributing
 
-We welcome contributions from the community to enhance Naztech Software. If you have ideas for improvements, bug fixes, or new features, please follow these steps:
+I welcome contributions from the community to enhance Naztech Software. If you have ideas for improvements, bug fixes, or new features, please follow these steps:
 
 1. Fork the repository on GitHub.
 2. Create a new branch with a descriptive name for your feature or bug fix.
@@ -81,7 +81,7 @@ We welcome contributions from the community to enhance Naztech Software. If you 
 4. Test your changes thoroughly.
 5. Submit a pull request, explaining the changes you have made and their benefits.
 
-We appreciate your contributions and will review your pull requests promptly.
+I appreciate your contributions and will review your pull requests promptly.
 
 ## License
 
@@ -89,6 +89,6 @@ Naztech Software is licensed under the [MIT License](LICENSE). Feel free to use,
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please don't hesitate to reach out to us. You can contact the maintainer of Naztech Software through the [GitHub repository](https://github.com/nazpins/naztech-software).
+If you have any questions, suggestions, or feedback, please don't hesitate to reach out to me. You can contact the maintainer of Naztech Software through the [GitHub repository](https://github.com/nazpins/naztech-software).
 
-We hope you find Naztech Software valuable in streamlining your digital tasks. Happy organizing and coding!
+I hope you find Naztech Software valuable in streamlining your digital tasks. Happy organizing and coding!
