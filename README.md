@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-Welcome to Naztech Automated Data Sorting Tools, a curated collection of tools and scripts designed to streamline your digital workflow. This repository offers a wide range of utilities for document sorting, file organization, duplicate image removal, and more. The goal is to provide efficient solutions that enhance productivity and simplify day-to-day tasks.
+Welcome to Naztech ADST, a curated collection of tools and scripts designed to streamline your digital workflow. This repository offers a wide range of utilities for document sorting, file organization, duplicate image removal, and more. The goal is to provide efficient solutions that enhance productivity and simplify day-to-day tasks.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ Naz Remove Duplicate Images is a robust utility that identifies and eliminates d
 
 ### Prerequisites
 
-Before diving into Naztech Automated Data Sorting Tools, ensure that you have the following prerequisites:
+Before diving into Naztech ADST, ensure that you have the following prerequisites:
 
 - Python 3.x installed on your system
 - Conda package manager for Python-Scripts (optional but recommended)
@@ -59,7 +59,7 @@ Before diving into Naztech Automated Data Sorting Tools, ensure that you have th
 1. Clone the repository to your local machine using the following command:
 
    ```
-   git clone https://github.com/nazpins/naztech-software.git
+   git clone https://github.com/nazpins/naztech-automated-data-sorting-tools.git
    ```
 
 2. Navigate to the cloned directory:
@@ -72,11 +72,11 @@ Before diving into Naztech Automated Data Sorting Tools, ensure that you have th
 
 ## Usage
 
-Each project within Naztech Automated Data Sorting Tools comes with its own detailed usage instructions. Please refer to the individual project READMEs for step-by-step guides on how to utilize the tools and scripts effectively.
+Each project within Naztech ADST comes with its own detailed usage instructions. Please refer to the individual project READMEs for step-by-step guides on how to utilize the tools and scripts effectively.
 
 ## Contributing
 
-I welcome contributions from the community to enhance Naztech Automated Data Sorting Tools. If you have ideas for improvements, bug fixes, or new features, please follow these steps:
+I welcome contributions from the community to enhance Naztech ADST. If you have ideas for improvements, bug fixes, or new features, please follow these steps:
 
 1. Fork the repository on GitHub.
 2. Create a new branch with a descriptive name for your feature or bug fix.
@@ -92,6 +92,6 @@ Naztech Automated Data Sorting Tools is licensed under the [MIT License](LICENSE
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please don't hesitate to reach out to me. You can contact the maintainer of Naztech Automated Data Sorting Tools through the [GitHub repository](https://github.com/nazpins/naztech-software).
+If you have any questions, suggestions, or feedback, please don't hesitate to reach out to me. You can contact the maintainer of Naztech ADST through the [GitHub repository](https://github.com/nazpins/naztech-automated-data-sorting-tools).
 
-I hope you find Naztech Automated Data Sorting Tools valuable in streamlining your digital tasks. Happy organizing and coding!
+I hope you find Naztech ADST valuable in streamlining your digital tasks. Happy organizing and coding!
