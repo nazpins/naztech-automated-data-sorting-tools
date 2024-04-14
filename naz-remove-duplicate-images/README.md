@@ -1,8 +1,3 @@
-Let's first read the content of your existing `README.md` file to understand its structure and the information it currently contains. Then, I can help you update it to include details about the `start.sh` script. I'll read the file now.
-
-Here is an updated version of the `README.md` to include information about the new `start.sh` script. This update integrates with the existing sections for a unified presentation:
-
-```markdown
 # Naztech Remove Duplicate Images
 
 Naztech Remove Duplicate Images is a utility to identify and remove duplicate images in a specified directory. It uses hashing algorithms provided by the `imagehash` library to detect duplicates effectively.
@@ -72,5 +67,3 @@ Duplicate Photo Hash Deleter is developed by nazpins (https://github.com/nazpins
 
 Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/duplicate-photo-hash-deleter).
 ```
-
-This update introduces a section under "Scripts" that includes the `start.sh` for Unix-like systems, and reorganizes the "Usage" section for clarity across different operating systems. Save this content to your `README.md` file to update it. If you need further customization or additions, let me know!
