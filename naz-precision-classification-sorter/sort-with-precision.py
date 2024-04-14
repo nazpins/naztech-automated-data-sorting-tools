@@ -7,6 +7,11 @@ import tensorflow as tf
 from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 from tensorflow.keras.preprocessing import image
 import numpy as np
+import transformers
+
+# Suppress model conversion warnings
+transformers.logging.set_verbosity_error()
+logging.getLogger("transformers.modeling_tf_utils").setLevel(logging.ERROR)
 
 # Ensure TensorFlow uses GPU
 gpus = tf.config.list_physical_devices('GPU')
@@ -31,14 +36,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def classify_text(text):
     categories = [
-        'Article', 'Research Paper', 'Report', 'Newsletter', 'Manual',
-        'Legal Document', 'Presentation', 'Creative Writing', 'Email', 'Forum Post',
-        'Social Media Content', 'Technical Documentation', 'News Article', 'Blog Post',
-        'Advertisement', 'Miscellaneous Text'
+        'Note', 'Guide', 'Report', 'Documentation', 'Manual',
+        'Plan', 'Report', 'Email', 'Database', 'Code'
     ]
     prediction = text_classifier(text, candidate_labels=categories, multi_label=False)
     return prediction['labels'][0]
-
+    
 def classify_image(image_path):
     img = image.load_img(image_path, target_size=(224, 224))
     x = image.img_to_array(img)
@@ -52,7 +55,37 @@ def process_file(file_path, directory):
     _, extension = os.path.splitext(filename)
     extension = extension.lower()
     extension_folders = {
-        # Add file extensions and their corresponding folders here
+        '.txt': 'Text Files',
+        '.doc': 'Word Documents',
+        '.docx': 'Word Documents',
+        '.pdf': 'PDF Files',
+        '.md': 'Markdown Files',
+        '.jpg': 'JPEG Images',
+        '.jpeg': 'JPEG Images',
+        '.png': 'PNG Images',
+        '.gif': 'GIF Images',
+        '.bmp': 'BMP Images',
+        '.xlsx': 'Excel Files',
+        '.csv': 'CSV Files',
+        '.ppt': 'PowerPoint Presentations',
+        '.pptx': 'PowerPoint Presentations',
+        '.zip': 'Compressed Archives',
+        '.rar': 'Compressed Archives',
+        '.7z': 'Compressed Archives',
+        '.tar': 'Compressed Archives',
+        '.gz': 'Compressed Archives',
+        '.mp3': 'Audio Files',
+        '.wav': 'Audio Files',
+        '.mp4': 'Video Files',
+        '.avi': 'Video Files',
+        '.mov': 'Video Files',
+        '.mkv': 'Video Files',
+        '.py': 'Python Scripts',
+        '.js': 'JavaScript Files',
+        '.html': 'HTML Files',
+        '.css': 'CSS Files',
+        '.json': 'JSON Files',
+        '.xml': 'XML Files'
     }
 
     if extension in ['.txt', '.doc', '.docx', '.pdf', '.md']:
@@ -68,7 +101,8 @@ def process_file(file_path, directory):
     else:
         folder_name = extension_folders.get(extension, 'Other')
 
-    folder_path = os.path.join(directory, folder_name)
+    sorted_output_folder = os.path.join(directory, "Sorted_Output")
+    folder_path = os.path.join(sorted_output_folder, folder_name)
     os.makedirs(folder_path, exist_ok=True)
     destination_path = os.path.join(folder_path, filename)
     try:
@@ -87,7 +121,20 @@ def organize_files_by_type(directory):
 
         concurrent.futures.wait(futures)
 
+    # Delete empty folders
+    for root, dirs, files in os.walk(directory, topdown=False):
+        for dir in dirs:
+            dir_path = os.path.join(root, dir)
+            if not os.listdir(dir_path):
+                os.rmdir(dir_path)
+                logging.info(f"Removed empty folder: {dir_path}")
+
 if __name__ == '__main__':
     print("\033[1;34mSORT WITH PRECISION - Powered by AI\033[0m")
-    directory = input("Enter the directory path: ")
-    organize_files_by_type(directory)
+    print("Enter the directory path to organize files (e.g., C:\\path\\to\\directory):")
+    directory = input()
+    try:
+        organize_files_by_type(directory)
+        print("\033[1;32mFile organization completed successfully!\033[0m")
+    except Exception as e:
+        print(f"\033[1;31mAn error occurred during file organization: {str(e)}\033[0m")
