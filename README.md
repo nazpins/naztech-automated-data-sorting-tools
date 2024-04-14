@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [Projects](#projects)
+  - [Sort-with-Precision](#sort-with-precision)
   - [File-Sorter & File-Sorter-Lite](#naz-file-sorter--naz-file-sorter-lite)
   - [Remove-Duplicate-Images](#naz-remove-duplicate-images)
   - [Doc-Sorter](#naz-doc-sorter)
@@ -21,6 +22,10 @@
 - [Contact](#contact)
 
 ## Projects
+
+### Sort-with-Precision
+
+Naz-PCS is an advanced file sorting tool powered by AI, designed to categorize large volumes of data efficiently. It utilizes state-of-the-art machine learning models to classify text and images, sorting files into intuitive categories based on content. With parallel processing capabilities and support for a wide range of file types, Naz-PCS brings precision and speed to your data organization tasks.
 
 ### File-Sorter & File-Sorter-Lite
 
