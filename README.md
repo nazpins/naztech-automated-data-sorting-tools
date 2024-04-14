@@ -4,9 +4,6 @@
 [![Linux](https://img.shields.io/badge/Linux-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-Welcome to Naztech ADST, a curated collection of tools and scripts designed to streamline data and file management.
-
 ## Table of Contents
 
 - [Projects](#projects)
