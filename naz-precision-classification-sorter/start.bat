@@ -7,7 +7,7 @@ IF NOT EXIST "env" (
 
 call env\Scripts\activate
 echo Installing requirements...
-pip install tensorflow==2.16.0 transformers pillow tf-keras
+pip install tensorflow transformers pillow tf-keras
 echo Requirements installed.
 
 echo Launching Sort with Precision...
