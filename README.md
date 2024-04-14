@@ -4,7 +4,7 @@
 [![Linux](https://img.shields.io/badge/Linux-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Naztech Automated Data Sorting Tools** (Naztech ADST) offers a suite of powerful utilities designed to streamline and enhance the organization of digital data. From advanced AI-driven file sorting to duplicate image removal, Naztech ADST provides essential tools tailored for efficiency and accuracy.
+**Naztech Automated Data Sorting Tools** (Naztech ADST) offers a suite of powerful utilities designed to streamline and enhance the organization of files and data. From advanced AI-driven file sorting to duplicate image removal, Naztech ADST provides automated tools tailored for any type of workflow.
 
 ## Table of Contents
 
@@ -26,13 +26,13 @@
 ## Projects
 
 ### [Precision-Classification-Sorter](#precision-classification-sorter)
-An advanced AI-powered tool that efficiently categorizes large volumes of data. It employs machine learning models to intelligently sort text and images into relevant categories, optimizing data management processes.
+An advanced AI-powered tool that efficiently categorizes data. It employs machine learning models to intelligently sort text and images into relevant categories, optimizing data management processes.
 
 ### [File-Sorter & File-Sorter-Lite](#file-sorter--file-sorter-lite)
-Designed for straightforward file organization, these tools automatically sort files into predefined directories based on their file types, enhancing the organization of your digital space.
+Designed for straightforward file organization, these tools automatically sort files into predefined directories based on their file types, quick and easy.
 
 ### [Remove-Duplicate-Images](#remove-duplicate-images)
-Utilizes advanced algorithms to identify and eliminate duplicate images, freeing up storage and simplifying your photo libraries.
+Utilizes advanced hash algorithms to identify and eliminate duplicate images, freeing up storage and simplifying your photo libraries.
 
 ### [Doc-Sorter](#doc-sorter)
 Streamlines the management of documents by using metadata from the Google Books API to organize ebooks and PDFs into author-specific directories.
