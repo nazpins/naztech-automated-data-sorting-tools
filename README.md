@@ -10,11 +10,11 @@ Welcome to Naztech ADST, a curated collection of tools and scripts designed to s
 ## Table of Contents
 
 - [Projects](#projects)
+  - [Naz File Sorter & Naz File Sorter Lite](#naz-file-sorter--naz-file-sorter-lite)
+  - [Naz Doc Sorter](#naz-doc-sorter)
+  - [Naz Remove Duplicate Images](#naz-remove-duplicate-images)
   - [Python Scripts](#python-scripts)
   - [Windows Scripts](#windows-scripts)
-  - [Naz Doc Sorter](#naz-doc-sorter)
-  - [Naz File Sorter & Naz File Sorter Lite](#naz-file-sorter--naz-file-sorter-lite)
-  - [Naz Remove Duplicate Images](#naz-remove-duplicate-images)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -25,6 +25,18 @@ Welcome to Naztech ADST, a curated collection of tools and scripts designed to s
 
 ## Projects
 
+### Naz File Sorter & Naz File Sorter Lite
+
+Naz File Sorter and its lightweight counterpart, Naz File Sorter Lite, are your go-to solutions for efficient file organization. These Python-based utilities categorize your files into predefined directories based on their file types. With options to include datetime stamps and support for a wide range of file formats, these tools bring order to your digital chaos.
+
+### Naz Doc Sorter
+
+Naz Doc Sorter is a powerful tool that simplifies document organization (ebooks, pdf, md, txt, etc..) By leveraging the Google Books API, it renames your documents based on accurate metadata and intelligently sorts them into author-specific folders. Say goodbye to cluttered document and ebook collections and hello to a well-structured library.
+
+### Naz Remove Duplicate Images
+
+Naz Remove Duplicate Images is a robust utility that identifies and eliminates duplicate images from your directories. Powered by advanced hashing algorithms, it effectively detects and removes redundant images, freeing up valuable storage space. With batch, PowerShell, and Unix shell scripts provided, removing duplicates has never been easier.
+
 ### Python Scripts
 
 The `python-scripts` directory contains a diverse set of scripts tailored for automation, data processing, and machine learning tasks. These scripts leverage Python's versatility to provide powerful solutions for common challenges. From creating Conda environments to managing user accounts and monitoring system resources, these scripts cater to a wide range of needs.
@@ -32,18 +44,6 @@ The `python-scripts` directory contains a diverse set of scripts tailored for au
 ### Windows Scripts
 
 The `windows-scripts` directory is a treasure trove of scripts specifically designed for Windows power users. These scripts focus on automation, data sorting, security, and workflow improvements. Whether you need to block .exe files using Windows Firewall, list installed applications with winget, or find duplicate files, these scripts have you covered.
-
-### Naz Doc Sorter
-
-Naz Doc Sorter is a powerful tool that revolutionizes document organization. By leveraging the Google Books API, it renames your documents based on accurate metadata and intelligently sorts them into author-specific folders. Say goodbye to cluttered document collections and hello to a well-structured library.
-
-### Naz File Sorter & Naz File Sorter Lite
-
-Naz File Sorter and its lightweight counterpart, Naz File Sorter Lite, are your go-to solutions for efficient file organization. These Python-based utilities categorize your files into predefined directories based on their file types. With options to include datetime stamps and support for a wide range of file formats, these tools bring order to your digital chaos.
-
-### Naz Remove Duplicate Images
-
-Naz Remove Duplicate Images is a robust utility that identifies and eliminates duplicate images from your directories. Powered by advanced hashing algorithms, it effectively detects and removes redundant images, freeing up valuable storage space. With batch, PowerShell, and Unix shell scripts provided, removing duplicates has never been easier.
 
 ## Getting Started
 
