@@ -36,6 +36,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-NAZTECH Doc Sorter is developed by nazpins (https://github.com/nazpins).
+Naztech Doc Sorter is developed by nazpins (https://github.com/nazpins).
 
 Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/naztech-software/tree/main/naz-doc-sorter).
