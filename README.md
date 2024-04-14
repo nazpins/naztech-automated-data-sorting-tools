@@ -10,9 +10,9 @@ Welcome to Naztech ADST, a curated collection of tools and scripts designed to s
 ## Table of Contents
 
 - [Projects](#projects)
-  - [Naz File Sorter & Naz File Sorter Lite](#naz-file-sorter--naz-file-sorter-lite)
-  - [Naz Doc Sorter](#naz-doc-sorter)
-  - [Naz Remove Duplicate Images](#naz-remove-duplicate-images)
+  - [File-Sorter & File-Sorter-Lite](#naz-file-sorter--naz-file-sorter-lite)
+  - [Doc-Sorter](#naz-doc-sorter)
+  - [Remove Duplicate Images](#naz-remove-duplicate-images)
   - [Python Scripts](#python-scripts)
   - [Windows Scripts](#windows-scripts)
 - [Getting Started](#getting-started)
@@ -25,7 +25,7 @@ Welcome to Naztech ADST, a curated collection of tools and scripts designed to s
 
 ## Projects
 
-### Naz File Sorter & Naz File Sorter Lite
+### Naz File-Sorter & File-Sorter-Lite
 
 Naz File Sorter and its lightweight counterpart, Naz File Sorter Lite, are your go-to solutions for efficient file organization. These Python-based utilities categorize your files into predefined directories based on their file types. With options to include datetime stamps and support for a wide range of file formats, these tools bring order to your digital chaos.
 
