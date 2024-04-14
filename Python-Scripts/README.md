@@ -2,8 +2,6 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.x-blue)](https://www.python.org/downloads/)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/python-scripts)](https://github.com/nazpins/naztech-software/edit/main/Python-Scripts/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/python-scripts)](https://github.com/nazpins/naztech-software/edit/main/Python-Scripts/pulls)
 
 A curated collection of Python scripts designed to streamline workflows, improve productivity, and automate repetitive tasks. This repository covers a wide range of areas, including machine learning, automation, data sorting, security, and management.
 
