@@ -7,7 +7,7 @@
 ## Table of Contents
 
 - [Projects](#projects)
-  - [Sort-with-Precision](#sort-with-precision)
+  - [Precision-Classification-Sorter](#naz-precision-classification-sorter)
   - [File-Sorter & File-Sorter-Lite](#naz-file-sorter--naz-file-sorter-lite)
   - [Remove-Duplicate-Images](#naz-remove-duplicate-images)
   - [Doc-Sorter](#naz-doc-sorter)
@@ -23,7 +23,7 @@
 
 ## Projects
 
-### Sort-with-Precision
+### Precision-Classification-Sorter
 
 Naz-PCS is an advanced file sorting tool powered by AI, designed to categorize large volumes of data efficiently. It utilizes state-of-the-art machine learning models to classify text and images, sorting files into intuitive categories based on content. With parallel processing capabilities and support for a wide range of file types, Naz-PCS brings precision and speed to your data organization tasks.
 
@@ -87,6 +87,10 @@ I welcome contributions from the community to enhance Naztech ADST. If you have 
 5. Submit a pull request, explaining the changes you have made and their benefits.
 
 I appreciate your contributions and will review your pull requests promptly.
+
+## Warning
+
+Please note that the script modifies the structure of the directory you specify by organizing files into folders. It is highly recommended to back up your data before running the script to avoid any unintended loss or modification of files.
 
 ## License
 
