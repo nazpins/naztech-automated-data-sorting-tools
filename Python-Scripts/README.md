@@ -5,12 +5,7 @@
 
 A curated collection of Python scripts designed to streamline workflows, improve productivity, and automate repetitive tasks. This repository covers a wide range of areas, including machine learning, automation, data sorting, security, and management.
 
----
-
 **Warning**: Please review each script before running it. Most of these scripts are automated and will ask for user input, but it's good practice to understand what a script does before executing it.
-
----
-
 
 ## Table of Contents
 
