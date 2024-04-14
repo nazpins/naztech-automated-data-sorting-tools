@@ -32,7 +32,7 @@ Before running the scripts, ensure that you have the following prerequisites ins
    ```bash
    git clone https://github.com/nazpins/naztech-software/edit/main/Python-Scripts.git
    ```
-2. Double-click the `.bat` file and follow the prompts to provide the necessary inputs.
+2. You're ready to use the scripts! Double-click the `.bat` file and follow the prompts to provide the necessary inputs.
 
 ## Scripts
 
