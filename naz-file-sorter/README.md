@@ -1,8 +1,6 @@
-OTHER README2
+# Naztech File Sorter
 
-# naz-file-sorter
-
-The naz-file-sorter is a Python-based utility that helps you organize your files into categorized directories based on their type. It supports custom categorizations such as Documents, Pictures, Videos, and Audio. You can also choose whether to include datetime stamps in the filenames.
+The Naztech File Sorter is a Python-based utility that helps you organize your files into categorized directories based on their type. It supports custom categorizations such as Documents, Pictures, Videos, and Audio. You can also choose whether to include datetime stamps in the filenames.
 
 ## Features
 
