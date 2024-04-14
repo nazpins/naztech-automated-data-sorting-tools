@@ -1,6 +1,6 @@
 # Naztech File Sorter Lite
 
-NAZTECH File Sorter Lite is a program that helps you organize files in a directory by sorting them into folders based on their file extensions. It provides a simple and efficient way to keep your files organized and easily accessible.
+Naztech File Sorter Lite is a program that helps you organize files in a directory by sorting them into folders based on their file extensions. It provides a simple and efficient way to keep your files organized and easily accessible.
 
 ## Features
 
@@ -43,6 +43,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Author
 
-NAZTECH File Sorter Lite is developed by nazpins (https://github.com/nazpins).
+Naztech File Sorter Lite is developed by nazpins (https://github.com/nazpins).
 
 Feel free to contribute to the project by submitting pull requests or reporting issues on the [GitHub repository](https://github.com/nazpins/naz-file-sorter-lite).
