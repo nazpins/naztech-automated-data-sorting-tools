@@ -65,7 +65,7 @@ Before diving into Naztech ADST, ensure that you have the following prerequisite
 2. Navigate to the cloned directory:
 
    ```
-   cd naztech-software
+   cd naztech-automated-data-sorting-tools
    ```
 
 3. Follow the specific installation instructions provided in each project's README file.
