@@ -72,7 +72,7 @@ A curated collection of 20 useful scripts for Windows power users, focusing on m
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/nazpins/naztech-software/edit/main/windows-scripts.git
+   git clone https://github.com/nazpins/naztech-software/main/windows-scripts.git
    ```
 
 2. You're ready to use the scripts! Double-click the `.bat` file and follow the prompts to provide the necessary inputs.
@@ -89,9 +89,7 @@ Feel free to modify and customize the scripts to suit your specific needs. You c
 
 ## Contributing
 
-Contributions to the Windows-Scripts collection are welcome! If you have any ideas for new scripts or improvements to existing ones, please submit a pull request or open an issue on the [GitHub repository](https://github.com/nazpins/naztech-software/edit/main/windows-scripts).
-
-Please follow the [contribution guidelines](CONTRIBUTING.md) when submitting pull requests or reporting issues.
+Contributions to the Windows-Scripts collection are welcome! If you have any ideas for new scripts or improvements to existing ones, please submit a pull request or open an issue on the [GitHub repository](https://github.com/nazpins/naztech-software/main/windows-scripts).
 
 ## License
 
