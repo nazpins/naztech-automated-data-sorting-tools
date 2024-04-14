@@ -1,11 +1,11 @@
-# Naztech Software
+# Naztech Tools
 
 [![Windows](https://img.shields.io/badge/Windows-green.svg)](https://opensource.org/licenses/MIT)
 [![Linux](https://img.shields.io/badge/Linux-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-Welcome to Naztech Software, a curated collection of tools and scripts designed to streamline your digital workflow. This repository offers a wide range of utilities for document sorting, file organization, duplicate image removal, and more. The goal is to provide efficient solutions that enhance productivity and simplify day-to-day tasks.
+Welcome to Naztech Tools, a curated collection of tools and scripts designed to streamline your digital workflow. This repository offers a wide range of utilities for document sorting, file organization, duplicate image removal, and more. The goal is to provide efficient solutions that enhance productivity and simplify day-to-day tasks.
 
 ## Table of Contents
 
@@ -49,7 +49,7 @@ Naz Remove Duplicate Images is a robust utility that identifies and eliminates d
 
 ### Prerequisites
 
-Before diving into Naztech Software, ensure that you have the following prerequisites:
+Before diving into Naztech Tools, ensure that you have the following prerequisites:
 
 - Python 3.x installed on your system
 - Conda package manager for Python-Scripts (optional but recommended)
@@ -72,11 +72,11 @@ Before diving into Naztech Software, ensure that you have the following prerequi
 
 ## Usage
 
-Each project within Naztech Software comes with its own detailed usage instructions. Please refer to the individual project READMEs for step-by-step guides on how to utilize the tools and scripts effectively.
+Each project within Naztech Tools comes with its own detailed usage instructions. Please refer to the individual project READMEs for step-by-step guides on how to utilize the tools and scripts effectively.
 
 ## Contributing
 
-I welcome contributions from the community to enhance Naztech Software. If you have ideas for improvements, bug fixes, or new features, please follow these steps:
+I welcome contributions from the community to enhance Naztech Tools. If you have ideas for improvements, bug fixes, or new features, please follow these steps:
 
 1. Fork the repository on GitHub.
 2. Create a new branch with a descriptive name for your feature or bug fix.
@@ -88,10 +88,10 @@ I appreciate your contributions and will review your pull requests promptly.
 
 ## License
 
-Naztech Software is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
+Naztech Tools is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
 
 ## Contact
 
-If you have any questions, suggestions, or feedback, please don't hesitate to reach out to me. You can contact the maintainer of Naztech Software through the [GitHub repository](https://github.com/nazpins/naztech-software).
+If you have any questions, suggestions, or feedback, please don't hesitate to reach out to me. You can contact the maintainer of Naztech Tools through the [GitHub repository](https://github.com/nazpins/naztech-software).
 
-I hope you find Naztech Software valuable in streamlining your digital tasks. Happy organizing and coding!
+I hope you find Naztech Tools valuable in streamlining your digital tasks. Happy organizing and coding!
