@@ -12,7 +12,7 @@ Welcome to Naztech ADST, a curated collection of tools and scripts designed to s
 - [Projects](#projects)
   - [File-Sorter & File-Sorter-Lite](#naz-file-sorter--naz-file-sorter-lite)
   - [Doc-Sorter](#naz-doc-sorter)
-  - [Remove Duplicate Images](#naz-remove-duplicate-images)
+  - [Remove-Duplicate-Images](#naz-remove-duplicate-images)
   - [Python Scripts](#python-scripts)
   - [Windows Scripts](#windows-scripts)
 - [Getting Started](#getting-started)
