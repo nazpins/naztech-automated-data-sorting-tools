@@ -4,7 +4,7 @@
 [![Linux](https://img.shields.io/badge/Linux-blue.svg)](https://opensource.org/licenses/MIT)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Naztech Automated Data Sorting Tools** (Naztech ADST) offers a suite of powerful utilities designed to streamline and enhance the organization of files and data. From advanced AI-driven file sorting, to duplicate algorithmic hash detecting image removal, to simple folder sorting scripts, Naztech ADST provides automated tools tailored for any type of workflow.
+**Naztech Automated Data Sorting Tools** (Naztech ADST) offers a suite of powerful utilities designed to streamline and enhance the organization of files and data. From advanced AI-driven file sorting, to duplicate algorithmic hash detection image removal, to simple folder sorting scripts, Naztech ADST provides automated tools tailored for any type of workflow. My utility scripts for Windows are also included.
 
 ## Table of Contents
 
