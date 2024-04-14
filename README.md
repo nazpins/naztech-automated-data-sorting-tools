@@ -90,7 +90,7 @@ I appreciate your contributions and will review your pull requests promptly.
 
 ## Warning
 
-Please note that the script modifies the structure of the directory you specify by organizing files into folders. It is highly recommended to back up your data before running the script to avoid any unintended loss or modification of files.
+Please note that these programs will modify the structure of directories you specify by organizing files into folders. It is highly recommended to back up your data before running any of these programs to avoid unintended loss or modification of data.
 
 ## License
 
