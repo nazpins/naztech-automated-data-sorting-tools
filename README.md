@@ -28,7 +28,7 @@ The `Python-Scripts` directory contains a diverse set of scripts tailored for au
 
 ### Windows Scripts
 
-The `Useful-Windows-Scripts` directory is a treasure trove of scripts specifically designed for Windows power users. These scripts focus on automation, data sorting, security, and workflow improvements. Whether you need to block .exe files using Windows Firewall, list installed applications with winget, or find duplicate files, these scripts have you covered.
+The `Windows-Scripts` directory is a treasure trove of scripts specifically designed for Windows power users. These scripts focus on automation, data sorting, security, and workflow improvements. Whether you need to block .exe files using Windows Firewall, list installed applications with winget, or find duplicate files, these scripts have you covered.
 
 ### Naz Doc Sorter
 
