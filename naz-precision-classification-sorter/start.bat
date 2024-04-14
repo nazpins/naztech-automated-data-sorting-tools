@@ -1,14 +1,12 @@
 @echo off
 echo Checking and setting up the environment...
-IF NOT EXIST "env" (
-    python -m venv env
-    echo Environment created.
-)
+CALL conda activate tf_gpu
 
-call env\Scripts\activate
-echo Installing requirements...
-pip install tensorflow transformers pillow tf-keras
-echo Requirements installed.
+echo Installing TensorFlow with GPU support...
+pip install tensorflow==2.10.0
+
+echo Installing other dependencies...
+pip install transformers pillow
 
 echo Launching Sort with Precision...
 python sort-with-precision.py

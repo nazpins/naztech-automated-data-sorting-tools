@@ -8,15 +8,25 @@ from tensorflow.keras.applications.resnet50 import ResNet50, preprocess_input, d
 from tensorflow.keras.preprocessing import image
 import numpy as np
 
+# Ensure TensorFlow uses GPU
+gpus = tf.config.list_physical_devices('GPU')
+if gpus:
+    try:
+        # Currently, memory growth needs to be the same across GPUs
+        for gpu in gpus:
+            tf.config.experimental.set_memory_growth(gpu, True)
+    except RuntimeError as e:
+        print("Exception during GPU setup: ", e)
+
 # Suppress TensorFlow warnings
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'  # Suppresses most TensorFlow logs, except critical ones
+tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)  # Suppress deprecated function warnings
 
 # Initialize classifiers
 text_classifier = pipeline('zero-shot-classification', model='facebook/bart-large-mnli')
 image_model = ResNet50(weights='imagenet')
 
-# Set up logging
+# Setup logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def classify_text(text):
@@ -41,6 +51,9 @@ def process_file(file_path, directory):
     filename = os.path.basename(file_path)
     _, extension = os.path.splitext(filename)
     extension = extension.lower()
+    extension_folders = {
+        # Add file extensions and their corresponding folders here
+    }
 
     if extension in ['.txt', '.doc', '.docx', '.pdf', '.md']:
         try:
@@ -70,15 +83,11 @@ def organize_files_by_type(directory):
         for root, dirs, files in os.walk(directory):
             for filename in files:
                 file_path = os.path.join(root, filename)
-                if os.path.isfile(file_path):
-                    futures.append(executor.submit(process_file, file_path, directory))
-                else:
-                    logging.info(f"{filename} is not a file. Skipping.")
+                futures.append(executor.submit(process_file, file_path, directory))
 
         concurrent.futures.wait(futures)
 
 if __name__ == '__main__':
-    print("\033c", end="")  # Clear the screen
-    print("\033[1;34mNAZ-PRECISION-CLASSIFICATION-SORTER - Powered by AI\033[0m")
-    directory = input("\033[1;32mEnter the directory path: \033[0m")
+    print("\033[1;34mSORT WITH PRECISION - Powered by AI\033[0m")
+    directory = input("Enter the directory path: ")
     organize_files_by_type(directory)
