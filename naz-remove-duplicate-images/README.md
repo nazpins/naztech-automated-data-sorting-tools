@@ -35,8 +35,7 @@ Naztech Remove Duplicate Images is a utility to identify and remove duplicate im
 ### Scripts
 
 1. Download the appropriate script for your operating system:
-   - `remove_duplicates.bat` for Windows Batch
-   - `remove_duplicates.ps1` for PowerShell
+   - `start.bat` for Windows Batch
    - `start.sh` for Unix-like systems
 2. Depending on your OS, double-click the script file or run it in a terminal.
 3. Enter the path to the folder containing the images when prompted.
@@ -46,6 +45,7 @@ Naztech Remove Duplicate Images is a utility to identify and remove duplicate im
 
 1. Make sure you have Python installed on your system.
 2. Download the `remove_duplicates.py` script.
+    - You can also double-click the start.bat file to start the program at this point and skip the steps below.
 3. Open a terminal or command prompt and navigate to the directory where the script is located.
 4. Run the script by executing the following command:
    ```bash

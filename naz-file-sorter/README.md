@@ -26,6 +26,7 @@ No additional libraries are required to run the script as it uses built-in Pytho
 
 1. Make sure you have Python installed on your system.
 2. Download the `sort_files.py` script.
+    - You can also use the start.bat file to start the program at this point and skip the steps below.
 3. Open a command prompt and navigate to the directory where the script is located.
 4. Run the script by executing the following command:
    ```

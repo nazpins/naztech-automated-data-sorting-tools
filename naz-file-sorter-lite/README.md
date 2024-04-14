@@ -13,7 +13,8 @@ Naztech File Sorter Lite is a program that helps you organize files in a directo
 ## Usage
 
 1. Make sure you have Python installed on your system.
-2. Download the `organize_files_by_type.py` script.
+2. Download the `organize_files_by_type.py` script. 
+    - You can also use the start.bat file to start the program at this point and skip the steps below.
 3. Open a terminal or command prompt and navigate to the directory where the script is located.
 4. Run the script by executing the following command: python organize_files_by_type.py
 5. When prompted, enter the path to the directory you want to sort.
