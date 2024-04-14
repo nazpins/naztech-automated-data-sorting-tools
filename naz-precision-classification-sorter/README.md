@@ -1,4 +1,4 @@
-# Precision-Classification-Sorter - Uses state-of-the-art models for sorting of large datasets.
+# Precision-Classification-Sorter
 
 Naz-PCS is an advanced file sorting tool powered by AI, designed to categorize large volumes of data efficiently. It utilizes machine learning models to classify text and images, sorting files into intuitive categories based on content.
 
