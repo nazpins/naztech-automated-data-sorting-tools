@@ -8,7 +8,7 @@ fi
 
 source env/bin/activate
 echo "Installing requirements..."
-pip install tensorflow transformers pillow
+pip install tensorflow transformers pillow tf-keras
 echo "Requirements installed."
 
 echo "Launching Sort with Precision..."
