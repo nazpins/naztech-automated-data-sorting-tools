@@ -2,7 +2,7 @@
 
 This folder contains a collection of scripts focused on improving workflows in machine learning, automation, data sorting, security, and management.
 
-## WARNING - Please REVIEW each script before running it. Most of these scripts are auutomated and will ask for user input, but it's good practice to know what a script does before running it.
+## WARNING - Please REVIEW each script before running it. Most of these scripts are automated and will ask for user input, but it's good practice to know what a script does before running it.
 
 ## Prerequisites
 
