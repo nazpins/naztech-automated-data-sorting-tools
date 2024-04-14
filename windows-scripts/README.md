@@ -3,7 +3,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?logo=windows&logoColor=white)](https://www.microsoft.com/en-us/windows)
 
-A curated collection of 20 useful scripts for Windows power users, focusing on machine learning, automation, data sorting, security, and workflow improvements. These scripts are designed to streamline tasks, enhance productivity, and provide convenient utilities for various system management and file manipulation operations.
+--- 
+
+**I'm still finishing these but they will be updated in the next few days!**
+
+--- 
+
+A curated collection of useful scripts for Windows power users, focusing on machine learning, automation, data sorting, security, and workflow improvements. These scripts are designed to streamline tasks, enhance productivity, and provide convenient utilities for various system management and file manipulation operations.
 
 ## Table of Contents
 
