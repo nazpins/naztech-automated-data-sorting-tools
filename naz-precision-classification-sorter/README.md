@@ -1,7 +1,3 @@
-Your updated `README.md` for the **Precision-Classification-Sorter** project looks thorough and informative! It's well-organized and offers clear instructions for setting up and running the application with both CPU and GPU environments. Below is the finalized version of your README with some minor formatting adjustments for clarity and consistency:
-
----
-
 # Precision-Classification-Sorter
 
 Precision-Classification-Sorter is an advanced file sorting tool powered by AI. It leverages TensorFlow to classify and sort large volumes of data efficiently. The tool supports both CPU and GPU environments.
@@ -153,7 +149,3 @@ If you encounter issues with TensorFlow not recognizing your GPU, ensure that yo
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-This README now includes comprehensive instructions for both CPU and GPU setups and has detailed guides for running the tool using the start scripts, ensuring clarity and usability for users.
