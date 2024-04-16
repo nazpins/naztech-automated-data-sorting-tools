@@ -1,0 +1,9 @@
+{
+    "nlp_model": "facebook/bart-large-mnli",
+    "temp_folders": ["C:\\Windows\\Temp", "C:\\Users\\USERNAME\\AppData\\Local\\Temp"],
+    "log_settings": {
+        "file": "maintenance_log.log",
+        "level": "INFO",
+        "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    }
+}
